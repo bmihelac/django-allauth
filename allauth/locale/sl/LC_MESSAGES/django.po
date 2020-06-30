@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
+# Slovenian translations for Django-allauth.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Bojan Mihelac <bmihelac@mihelac.org>, 2020-06-10
+# Lev Predan Kowarski <lev@filmoteka.si>, 2020-06-27
 #
 #, fuzzy
 msgid ""
@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-10 03:54-0500\n"
-"PO-Revision-Date: 2018-03-22 12:21+0122\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Bojan Mihelac <bmihelac@mihelac.org>\n"
+"PO-Revision-Date: 2020-06-27 12:21+0122\n"
+"Last-Translator: Lev Predan Kowarski <lev@filmoteka.si>\n"
+"Language-Team: Bojan Mihelac <bmihelac@mihelac.org>, Lev Predan Kowarski <lev@filmoteka.si>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,53 +22,49 @@ msgstr ""
 
 #: allauth/account/adapter.py:45
 msgid "Username can not be used. Please use other username."
-msgstr ""
+msgstr "Uporabniško ime je neveljavno. Prosimo uporabite drugo uporabniško ime."
 
 #: allauth/account/adapter.py:49
 msgid "Too many failed login attempts. Try again later."
-msgstr ""
+msgstr "Preveliko število neuspelih prijav. Poskusite znova kasneje."
 
 #: allauth/account/adapter.py:51
 msgid "A user is already registered with this e-mail address."
-msgstr ""
+msgstr "Za ta e-naslov že obstaja registriran uporabnik."
 
 #: allauth/account/adapter.py:294
 #, python-brace-format
 msgid "Password must be a minimum of {0} characters."
-msgstr ""
+msgstr "Geslo mora vsebovati najmanj {0} znakov. "
 
 #: allauth/account/apps.py:7
 msgid "Accounts"
-msgstr ""
+msgstr "Računi"
 
 #: allauth/account/forms.py:61 allauth/account/forms.py:398
 msgid "You must type the same password each time."
-msgstr ""
+msgstr "Vnesti je potrebno isto geslo."
 
 #: allauth/account/forms.py:91 allauth/account/forms.py:365
 #: allauth/account/forms.py:476
-#, fuzzy
-#| msgid "Set Password"
 msgid "Password"
-msgstr "Novo geslo"
+msgstr "Geslo"
 
 #: allauth/account/forms.py:92
 msgid "Remember Me"
 msgstr "Zapomni si me"
 
 #: allauth/account/forms.py:98
-#, fuzzy
-#| msgid "This account is inactive."
 msgid "This account is currently inactive."
-msgstr "Račun ni aktiven."
+msgstr "Račun trenutno ni aktiven."
 
 #: allauth/account/forms.py:101
 msgid "The e-mail address and/or password you specified are not correct."
-msgstr ""
+msgstr "E-poštni naslov in/ali geslo nista pravilna."
 
 #: allauth/account/forms.py:104
 msgid "The username and/or password you specified are not correct."
-msgstr ""
+msgstr "Uporabniško ime in/ali geslo nista pravilna."
 
 #: allauth/account/forms.py:113 allauth/account/forms.py:268
 #: allauth/account/forms.py:426 allauth/account/forms.py:495
@@ -78,7 +74,7 @@ msgstr "E-poštni naslov"
 #: allauth/account/forms.py:115 allauth/account/forms.py:301
 #: allauth/account/forms.py:421 allauth/account/forms.py:490
 msgid "E-mail"
-msgstr "E-pošta"
+msgstr "E-poštni naslov"
 
 #: allauth/account/forms.py:120 allauth/account/forms.py:123
 #: allauth/account/forms.py:260 allauth/account/forms.py:264
@@ -87,7 +83,7 @@ msgstr "Uporabniško ime"
 
 #: allauth/account/forms.py:130
 msgid "Username or e-mail"
-msgstr "Uporabniško ime ali geslo"
+msgstr "Uporabniško ime ali e-poštni naslov"
 
 #: allauth/account/forms.py:133
 msgctxt "field label"
@@ -96,49 +92,37 @@ msgstr "Prijava"
 
 #: allauth/account/forms.py:292
 msgid "E-mail (again)"
-msgstr "E-pošta (ponovno)"
+msgstr "E-pooštni naslov (ponovno)"
 
 #: allauth/account/forms.py:296
-#, fuzzy
-#| msgid "E-mail address"
 msgid "E-mail address confirmation"
-msgstr "E-poštni naslov"
+msgstr "Potrditev e-poštni naslova"
 
 #: allauth/account/forms.py:304
 msgid "E-mail (optional)"
-msgstr ""
+msgstr "E-poštni naslov (neobvezno)"
 
 #: allauth/account/forms.py:345
 msgid "You must type the same email each time."
-msgstr ""
+msgstr "Vnesti je potrebno isti e-poštni naslov."
 
 #: allauth/account/forms.py:368 allauth/account/forms.py:477
-#, fuzzy
-#| msgid "New Password (again)"
 msgid "Password (again)"
-msgstr "Novo geslo (ponovno)"
+msgstr "Geslo (ponovno)"
 
 #: allauth/account/forms.py:432
-#, fuzzy
-#| msgid "The following e-mail addresses are associated with your account:"
 msgid "This e-mail address is already associated with this account."
-msgstr "Naslednji e-poštni naslovi pripadajo vašem uporabniškem računu"
+msgstr "E-poštni naslov že pripada vašemu uporabniškemu računu."
 
 #: allauth/account/forms.py:434
-#, fuzzy
-#| msgid "The following e-mail addresses are associated with your account:"
 msgid "This e-mail address is already associated with another account."
-msgstr "Naslednji e-poštni naslovi pripadajo vašem uporabniškem računu"
+msgstr "E-poštni naslov že pripada drugemu uporabniškemu računu."
 
 #: allauth/account/forms.py:456
-#, fuzzy
-#| msgid "Set Password"
 msgid "Current Password"
-msgstr "Novo geslo"
+msgstr "Trenutno geslo"
 
 #: allauth/account/forms.py:457 allauth/account/forms.py:546
-#, fuzzy
-#| msgid "Set Password"
 msgid "New Password"
 msgstr "Novo geslo"
 
@@ -148,19 +132,19 @@ msgstr "Novo geslo (ponovno)"
 
 #: allauth/account/forms.py:466
 msgid "Please type your current password."
-msgstr ""
+msgstr "Prosimo vpišite trenutno geslo."
 
 #: allauth/account/forms.py:504
 msgid "The e-mail address is not assigned to any user account"
-msgstr "E-poštni naslov ne pripada nobenem uporabniškem računu"
+msgstr "E-poštni naslov ne pripada nobenemu uporabniškemu računu."
 
 #: allauth/account/forms.py:568
 msgid "The password reset token was invalid."
-msgstr ""
+msgstr "Žeton za ponastavitev gesla je bil neveljaven."
 
 #: allauth/account/models.py:21
 msgid "user"
-msgstr ""
+msgstr "uporabnik"
 
 #: allauth/account/models.py:25 allauth/account/models.py:78
 #, fuzzy
@@ -169,48 +153,40 @@ msgid "e-mail address"
 msgstr "E-poštni naslov"
 
 #: allauth/account/models.py:26
-#, fuzzy
-#| msgid "Unverified"
 msgid "verified"
-msgstr "Nepreverjeno"
+msgstr "preverjeno"
 
 #: allauth/account/models.py:27
-#, fuzzy
-#| msgid "Primary"
 msgid "primary"
-msgstr "Primarno"
+msgstr "Primarni"
 
 #: allauth/account/models.py:32
-#, fuzzy
-#| msgid "E-mail address"
 msgid "email address"
 msgstr "E-poštni naslov"
 
 #: allauth/account/models.py:33
-#, fuzzy
-#| msgid "E-mail Addresses"
 msgid "email addresses"
 msgstr "E-poštni naslovi"
 
 #: allauth/account/models.py:80
 msgid "created"
-msgstr "Ustvarjeno"
+msgstr "ustvarjeno"
 
 #: allauth/account/models.py:82
 msgid "sent"
-msgstr ""
+msgstr "poslano"
 
 #: allauth/account/models.py:83 allauth/socialaccount/models.py:55
 msgid "key"
-msgstr ""
+msgstr "ključ"
 
 #: allauth/account/models.py:88
 msgid "email confirmation"
-msgstr ""
+msgstr "E-poštna potrditev"
 
 #: allauth/account/models.py:89
 msgid "email confirmations"
-msgstr ""
+msgstr "E-poštne potrditve"
 
 #: allauth/socialaccount/adapter.py:26
 #, python-format
@@ -218,135 +194,137 @@ msgid ""
 "An account already exists with this e-mail address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
+"Uporabniški račun s tem e-poštnim naslovom že obstaja. Prosimo vpišite se "
+"v tobstoječi račun, nato %s račune povežite."
 
 #: allauth/socialaccount/adapter.py:131
 msgid "Your account has no password set up."
-msgstr ""
+msgstr "Vaš uporabniški račun nima nastavljenega gesla."
 
 #: allauth/socialaccount/adapter.py:138
 msgid "Your account has no verified e-mail address."
-msgstr ""
+msgstr "Vaš uporabniški račun nima preverjenega e-poštnega naslova."
 
 #: allauth/socialaccount/apps.py:7
 msgid "Social Accounts"
-msgstr ""
+msgstr "Računi družbenih omrežij."
 
 #: allauth/socialaccount/models.py:42 allauth/socialaccount/models.py:76
 msgid "provider"
-msgstr ""
+msgstr "ponudnik"
 
 #: allauth/socialaccount/models.py:45
 msgid "name"
-msgstr "Ime"
+msgstr "ime"
 
 #: allauth/socialaccount/models.py:47
 msgid "client id"
-msgstr ""
+msgstr "id številka"
 
 #: allauth/socialaccount/models.py:49
 msgid "App ID, or consumer key"
-msgstr ""
+msgstr "ID aplikacije ali uporoabniški ključ"
 
 #: allauth/socialaccount/models.py:50
 msgid "secret key"
-msgstr ""
+msgstr "skrivni ključ"
 
 #: allauth/socialaccount/models.py:53
 msgid "API secret, client secret, or consumer secret"
-msgstr ""
+msgstr "API skrivnost, skrivnost klienta ali uporabniška skrivnost"
 
 #: allauth/socialaccount/models.py:58
 msgid "Key"
-msgstr ""
+msgstr "Ključ"
 
 #: allauth/socialaccount/models.py:66
 msgid "social application"
-msgstr ""
+msgstr "družbena aplikacija"
 
 #: allauth/socialaccount/models.py:67
 msgid "social applications"
-msgstr ""
+msgstr "družbene aplikacije"
 
 #: allauth/socialaccount/models.py:95
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: allauth/socialaccount/models.py:97
 msgid "last login"
-msgstr ""
+msgstr "zadnja prijava"
 
 #: allauth/socialaccount/models.py:99
 msgid "date joined"
-msgstr ""
+msgstr "datum pridružitve"
 
 #: allauth/socialaccount/models.py:101
 msgid "extra data"
-msgstr ""
+msgstr "dodatni podatki"
 
 #: allauth/socialaccount/models.py:105
 msgid "social account"
-msgstr ""
+msgstr "uporabniški račun družbenih omerižij"
 
 #: allauth/socialaccount/models.py:106
 msgid "social accounts"
-msgstr ""
+msgstr "uporabniški računi družbenih omerižij"
 
 #: allauth/socialaccount/models.py:131
 msgid "token"
-msgstr ""
+msgstr "žeton"
 
 #: allauth/socialaccount/models.py:133
 msgid "\"oauth_token\" (OAuth1) or access token (OAuth2)"
-msgstr ""
+msgstr "\"oauth_token\" (OAuth1) ali žeton za dostop (OAuth2)"
 
 #: allauth/socialaccount/models.py:136
 msgid "token secret"
-msgstr ""
+msgstr "žeton skrivnost"
 
 #: allauth/socialaccount/models.py:138
 msgid "\"oauth_token_secret\" (OAuth1) or refresh token (OAuth2)"
-msgstr ""
+msgstr "\"oauth_token_secret\" (OAuth1) ali žeton za osvežitev (OAuth2)"
 
 #: allauth/socialaccount/models.py:140
 msgid "expires at"
-msgstr ""
+msgstr "veljavnost poteče"
 
 #: allauth/socialaccount/models.py:144
 msgid "social application token"
-msgstr ""
+msgstr "žeton družebnih omrežij"
 
 #: allauth/socialaccount/models.py:145
 msgid "social application tokens"
-msgstr ""
+msgstr "žetoni družbenih omrežij"
 
 #: allauth/socialaccount/providers/douban/views.py:36
 msgid "Invalid profile data"
-msgstr ""
+msgstr "Nevelljavni podatki profila"
 
 #: allauth/socialaccount/providers/oauth/client.py:78
 #, python-format
 msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr ""
+msgstr "Neveljaven odgovor ob pridobivanju žetona za zahtevo od \"%s\"."
 
 #: allauth/socialaccount/providers/oauth/client.py:109
 #, python-format
 msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr ""
+msgstr "Neveljaven odgovor ob pridobivanju žetona za dostop od \"%s\"."
 
 #: allauth/socialaccount/providers/oauth/client.py:128
 #, python-format
 msgid "No request token saved for \"%s\"."
-msgstr ""
+msgstr "Za \"%s\" ni shranjenega žetona za zahtevo."
 
 #: allauth/socialaccount/providers/oauth/client.py:177
 #, python-format
 msgid "No access token saved for \"%s\"."
-msgstr ""
+msgstr "Za \"%s\" ni shranjenega žetona za dostop."
 
 #: allauth/socialaccount/providers/oauth/client.py:197
 #, python-format
 msgid "No access to private resources at \"%s\"."
-msgstr ""
+msgstr "Ni dostopa do zasebnega vira na \"%s\"."
 
 #: allauth/templates/account/account_inactive.html:5
 #: allauth/templates/account/account_inactive.html:8
@@ -364,19 +342,19 @@ msgstr "E-poštni naslovi"
 
 #: allauth/templates/account/email.html:10
 msgid "The following e-mail addresses are associated with your account:"
-msgstr "Naslednji e-poštni naslovi pripadajo vašem uporabniškem računu"
+msgstr "E-poštni naslovi, ki pripadajo vašemu uporabniškemu računu:"
 
 #: allauth/templates/account/email.html:24
 msgid "Verified"
-msgstr "Preverjeno"
+msgstr "Preverjeni"
 
 #: allauth/templates/account/email.html:26
 msgid "Unverified"
-msgstr "Nepreverjeno"
+msgstr "Nepreverjeni"
 
 #: allauth/templates/account/email.html:28
 msgid "Primary"
-msgstr "Primarno"
+msgstr "Primarni"
 
 #: allauth/templates/account/email.html:34
 msgid "Make Primary"
@@ -400,6 +378,8 @@ msgid ""
 "You currently do not have any e-mail address set up. You should really add "
 "an e-mail address so you can receive notifications, reset your password, etc."
 msgstr ""
+"Trenutno nimate natavljlenega e-poštnega naslova. Priporočamo vam, da dodate "
+"e-poštni naslov, za prejemanje obvestil, zahtevkv za ponastavitev gesla, ipd."
 
 #: allauth/templates/account/email.html:48
 msgid "Add E-mail Address"
@@ -411,7 +391,7 @@ msgstr "Dodaj e-pošto"
 
 #: allauth/templates/account/email.html:62
 msgid "Do you really want to remove the selected e-mail address?"
-msgstr ""
+msgstr "Želite odstraniti izbran e-poštni nalsov?"
 
 #: allauth/templates/account/email/email_confirmation_message.txt:1
 #, python-format
@@ -423,6 +403,12 @@ msgid ""
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
+"Pozdravljeni!"
+"\n"
+"To sporočilo ste prejeli, ker je uporabnik %(user_display)s povezal vaš"
+"e-poštni naslov s svojim uporabniškim računom.\n"
+"\n"
+"Za potrditev sledite povezavi: %(activate_url)s\n"
 
 #: allauth/templates/account/email/email_confirmation_message.txt:7
 #, python-format
@@ -430,10 +416,12 @@ msgid ""
 "Thank you from %(site_name)s!\n"
 "%(site_domain)s"
 msgstr ""
+"Najlepša hvala, "
+"%(site_domain)s"
 
 #: allauth/templates/account/email/email_confirmation_subject.txt:3
 msgid "Please Confirm Your E-mail Address"
-msgstr ""
+msgstr "Prosimo, potrdite svoj e-poštni naslov."
 
 #: allauth/templates/account/email/password_reset_key_message.txt:1
 #, python-format
@@ -445,11 +433,17 @@ msgid ""
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
 msgstr ""
+"Pozdravljeni!"
+"\n"
+"To sporočilo ste prejeli, ker ste zahtevali ponastavitev "
+"gesla na %(site_name)s!\n"
+"To sporočilo lahko zavržete, če niste poslali zahtevka za spremembo gesla. Za "
+"ponastavitev gelsa, sledie spodnji pvezavi:"
 
 #: allauth/templates/account/email/password_reset_key_message.txt:8
 #, python-format
 msgid "In case you forgot, your username is %(username)s."
-msgstr ""
+msgstr "V primeru, da ste pozabili, vaše uporabniško ime je: %(username)s."
 
 #: allauth/templates/account/email/password_reset_key_message.txt:10
 #, python-format
@@ -457,17 +451,17 @@ msgid ""
 "Thank you for using %(site_name)s!\n"
 "%(site_domain)s"
 msgstr ""
+"Hvala, ker uporabljate %(site_name)s!\n"
+"%(site_domain)s"
 
 #: allauth/templates/account/email/password_reset_key_subject.txt:3
-#, fuzzy
-#| msgid "Password Reset"
 msgid "Password Reset E-mail"
-msgstr "Ponastavitev gesla"
+msgstr "E-poštni naslov za ponastavitev gesla"
 
 #: allauth/templates/account/email_confirm.html:6
 #: allauth/templates/account/email_confirm.html:10
 msgid "Confirm E-mail Address"
-msgstr "Potrjevanje e-poštnega naslova"
+msgstr "Potrdite e-poštni naslov"
 
 #: allauth/templates/account/email_confirm.html:16
 #, python-format
@@ -487,7 +481,9 @@ msgstr "Potrdi"
 msgid ""
 "This e-mail confirmation link expired or is invalid. Please <a href="
 "\"%(email_url)s\">issue a new e-mail confirmation request</a>."
-msgstr ""
+msgstr "
+"Povezava za potrditev je neveljavna, ali pa se je iztekla. Prosimo, <a href="
+"\"%(email_url)s\">pošljite nov zahtevek za potrditev.</a>."
 
 #: allauth/templates/account/login.html:6
 #: allauth/templates/account/login.html:10
@@ -503,10 +499,14 @@ msgid ""
 "up</a>\n"
 "for a %(site_name)s account and sign in below:"
 msgstr ""
+"Prosimo, vpišite se z enim od vaših\n"
+"obstoječih računov, ali pa <a href=\"%(signup_url)s\">ustvarite nov "
+"račun</a>\n"
+"na %(site_name)s in se vpišite spodaj:"
 
 #: allauth/templates/account/login.html:25
 msgid "or"
-msgstr ""
+msgstr "ali"
 
 #: allauth/templates/account/login.html:32
 #, python-format
@@ -514,6 +514,8 @@ msgid ""
 "If you have not created an account yet, then please\n"
 "<a href=\"%(signup_url)s\">sign up</a> first."
 msgstr ""
+"Če še nimate uporabniškega računa, ga ustvarite\n"
+"<a href=\"%(signup_url)s\">tukaj</a>."
 
 #: allauth/templates/account/login.html:42
 msgid "Forgot Password?"
@@ -532,22 +534,22 @@ msgstr "Ali ste prepričani, da se želite odjaviti?"
 #: allauth/templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
 msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr "Ni mogoče odstraniti primarni e-poštni naslov (%(email)s)."
+msgstr "Primarnega e-poštnega naslova (%(email)s) ni mogoče odstraniti."
 
 #: allauth/templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
 msgid "Confirmation e-mail sent to %(email)s."
-msgstr "Potrditveno sporočilo smo poslali na %(email)s."
+msgstr "Na %(email)s je bilo poslano potrditveno sporočilo."
 
 #: allauth/templates/account/messages/email_confirmed.txt:2
 #, python-format
 msgid "You have confirmed %(email)s."
-msgstr "Potrdili ste %(email)s."
+msgstr "%(email)s je potrjen."
 
 #: allauth/templates/account/messages/email_deleted.txt:2
 #, python-format
 msgid "Removed e-mail address %(email)s."
-msgstr "Odstanjen e-poštni naslov %(email)s."
+msgstr "E-poštni naslov %(email)s je bil odstranjen."
 
 #: allauth/templates/account/messages/logged_in.txt:4
 #, python-format
@@ -568,7 +570,7 @@ msgstr "Geslo je uspešno nastavljeno."
 
 #: allauth/templates/account/messages/primary_email_set.txt:2
 msgid "Primary e-mail address set."
-msgstr "Primarni E-poštni naslov je nastavljen."
+msgstr "Primarni e-poštni naslov je nastavljen."
 
 #: allauth/templates/account/messages/unverified_primary_email.txt:2
 msgid "Your primary e-mail address must be verified."
@@ -596,8 +598,8 @@ msgid ""
 "Forgotten your password? Enter your e-mail address below, and we'll send you "
 "an e-mail allowing you to reset it."
 msgstr ""
-"Vnesite vaš e-naslov, na katerega boste prejeli povezavo za ponastavitev "
-"gesla"
+"Vnesite vaš e-potni naslov, na katerega boste prejeli povezavo za ponastavitev "
+"gesla."
 
 #: allauth/templates/account/password_reset.html:20
 msgid "Reset My Password"
@@ -605,17 +607,18 @@ msgstr "Ponastavi geslo"
 
 #: allauth/templates/account/password_reset.html:23
 msgid "Please contact us if you have any trouble resetting your password."
-msgstr "V kolikor imate težave pri ponastavljanju gesla, nas kontaktirajte."
+msgstr "V primeru težav pri ponastavljanju gesla, nas kontaktirajte."
 
 #: allauth/templates/account/password_reset_done.html:15
 msgid ""
 "We have sent you an e-mail. Please contact us if you do not receive it "
 "within a few minutes."
-msgstr "Povezava za ponastavitev gesla je bila poslana"
+msgstr "Povezava za ponastavitev gesla je bila poslana. Če je ne "
+"boste prejeli v nekaj minutah, nas kontaktirajte."
 
 #: allauth/templates/account/password_reset_from_key.html:7
 msgid "Bad Token"
-msgstr ""
+msgstr "Napačni žeton"
 
 #: allauth/templates/account/password_reset_from_key.html:11
 #, python-format
@@ -624,6 +627,9 @@ msgid ""
 "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
 "a>."
 msgstr ""
+"Povezava za ponastavitev gesla je neveljavna oz. je bila že uporoabljena. "
+"Prosimo, zahtevajte <a href=\"%(passwd_reset_url)s\">novo povezavo</"
+"a> za ponastavitev."
 
 #: allauth/templates/account/password_reset_from_key.html:17
 msgid "change password"
@@ -632,31 +638,32 @@ msgstr "Sprememba gesla"
 #: allauth/templates/account/password_reset_from_key.html:20
 #: allauth/templates/account/password_reset_from_key_done.html:8
 msgid "Your password is now changed."
-msgstr "Geslo je zamenjano."
+msgstr "Geslo je spremenjeno."
 
 #: allauth/templates/account/password_set.html:5
 #: allauth/templates/account/password_set.html:8
 #: allauth/templates/account/password_set.html:13
 msgid "Set Password"
-msgstr "Novo geslo"
+msgstr "Nastavi geslo"
 
 #: allauth/templates/account/signup.html:5
 #: allauth/templates/socialaccount/signup.html:5
 msgid "Signup"
-msgstr "Registracija"
+msgstr "Ustvari račun"
 
 #: allauth/templates/account/signup.html:8
 #: allauth/templates/account/signup.html:18
 #: allauth/templates/socialaccount/signup.html:8
 #: allauth/templates/socialaccount/signup.html:19
 msgid "Sign Up"
-msgstr "Prijava"
+msgstr "Ustvari račun"
 
 #: allauth/templates/account/signup.html:10
 #, python-format
 msgid ""
 "Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
 msgstr ""
+"Že imate uporabniški račun? <a href=\"%(login_url)s\">Prijavite se</a>. "
 
 #: allauth/templates/account/signup_closed.html:5
 #: allauth/templates/account/signup_closed.html:8
@@ -669,19 +676,19 @@ msgstr "Registracija trenutno ni mogoča"
 
 #: allauth/templates/account/snippets/already_logged_in.html:5
 msgid "Note"
-msgstr ""
+msgstr "Opomba"
 
 #: allauth/templates/account/snippets/already_logged_in.html:5
 #, python-format
 msgid "you are already logged in as %(user_display)s."
-msgstr ""
+msgstr "Prijavljeni ste kot %(user_display)s."
 
 #: allauth/templates/account/verification_sent.html:5
 #: allauth/templates/account/verification_sent.html:8
 #: allauth/templates/account/verified_email_required.html:5
 #: allauth/templates/account/verified_email_required.html:8
 msgid "Verify Your E-mail Address"
-msgstr ""
+msgstr "Potrdite e-poštni naslov."
 
 #: allauth/templates/account/verification_sent.html:10
 msgid ""
@@ -689,6 +696,8 @@ msgid ""
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
+"Na vaš e-poštni naslov je bil poslano sporočilo za potrditev. Skledite povezavi "
+"za zaključek registracije. Če sporočila ne boste prejeli v nekaj minutah, nas kontaktirajte."
 
 #: allauth/templates/account/verified_email_required.html:12
 msgid ""
@@ -696,6 +705,9 @@ msgid ""
 "you are who you claim to be. For this purpose, we require that you\n"
 "verify ownership of your e-mail address. "
 msgstr ""
+"Za dostop morate potrditi svojo identiteto. \n"
+"Prosimo, da potrdite navedeni e-poštni naslov."
+
 
 #: allauth/templates/account/verified_email_required.html:16
 msgid ""
@@ -703,6 +715,9 @@ msgid ""
 "verification. Please click on the link inside this e-mail. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
+"Poslali smo vam e-poštno sporočilo s povezavo za \n"
+"potrditev. Če sporočila ne boste prejeli \n"
+"v nekaj minutah, nas kontaktirajte."
 
 #: allauth/templates/account/verified_email_required.html:20
 #, python-format
@@ -710,49 +725,50 @@ msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
 "mail address</a>."
 msgstr ""
+"<strong>Opomba:</strong> <a href=\"%(email_url)s\">e-poštni naslov"
+"</a> lahko spremenite."
 
 #: allauth/templates/openid/login.html:9
-#, fuzzy
-#| msgid "Sign In"
 msgid "OpenID Sign In"
-msgstr "Prijava"
+msgstr "Prijava z OpenID"
 
 #: allauth/templates/socialaccount/authentication_error.html:5
 #: allauth/templates/socialaccount/authentication_error.html:8
 msgid "Social Network Login Failure"
-msgstr ""
+msgstr "Prijava z računom drugega ponudnika ni uspela."
 
 #: allauth/templates/socialaccount/authentication_error.html:10
 msgid ""
 "An error occurred while attempting to login via your social network account."
 msgstr ""
+"Prišo je do napake ob poskusu prijave z vašim obstoječim računom drugega ponudnuka."
 
 #: allauth/templates/socialaccount/connections.html:5
 #: allauth/templates/socialaccount/connections.html:8
-#, fuzzy
-#| msgid "Account Inactive"
 msgid "Account Connections"
-msgstr "Neaktiven račun"
+msgstr "Povezave računov"
 
 #: allauth/templates/socialaccount/connections.html:11
 msgid ""
 "You can sign in to your account using any of the following third party "
 "accounts:"
 msgstr ""
+"Vpišete se lahko s pomčjo vaših obstoječih uoporabniških računov:"
 
 #: allauth/templates/socialaccount/connections.html:43
 msgid ""
 "You currently have no social network accounts connected to this account."
 msgstr ""
+"Trenutno nimate povezanega nobenega uporabniškega računa drugega ponudnika."
 
 #: allauth/templates/socialaccount/connections.html:46
 msgid "Add a 3rd Party Account"
-msgstr ""
+msgstr "Dodaj obstoječi račun drugega ponudnika"
 
 #: allauth/templates/socialaccount/login_cancelled.html:5
 #: allauth/templates/socialaccount/login_cancelled.html:9
 msgid "Login Cancelled"
-msgstr ""
+msgstr "Prijava je bila prekinjena"
 
 #: allauth/templates/socialaccount/login_cancelled.html:13
 #, python-format
@@ -761,22 +777,21 @@ msgid ""
 "accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
 "\">sign in</a>."
 msgstr ""
+"Odločili ste se za prekinitev prijave v našo storitev s pomočjo obstoječega računa. "
+"Če gre za napako, se lahko prijavite <a href=\"%(login_url)s"
+"\">tukaj</a>."
 
 #: allauth/templates/socialaccount/messages/account_connected.txt:2
-#, fuzzy
-#| msgid "This account is inactive."
 msgid "The social account has been connected."
-msgstr "Račun ni aktiven."
+msgstr "Obstoječi račun je povezan."
 
 #: allauth/templates/socialaccount/messages/account_connected_other.txt:2
 msgid "The social account is already connected to a different account."
-msgstr ""
+msgstr "Obstoječi račun drugega ponudnika, je povezan z obstoječim računom."
 
 #: allauth/templates/socialaccount/messages/account_disconnected.txt:2
-#, fuzzy
-#| msgid "This account is inactive."
 msgid "The social account has been disconnected."
-msgstr "Račun ni aktiven."
+msgstr "Obstoječi uporabniški račun je razvezan."
 
 #: allauth/templates/socialaccount/signup.html:10
 #, python-format
@@ -784,3 +799,5 @@ msgid ""
 "You are about to use your %(provider_name)s account to login to\n"
 "%(site_name)s. As a final step, please complete the following form:"
 msgstr ""
+"Uporabili boste svoj obstoječi %(provider_name)s račun, za vpis v\n"
+"%(site_name)s. Prosimo izpolnite spodnji obrazec:"
